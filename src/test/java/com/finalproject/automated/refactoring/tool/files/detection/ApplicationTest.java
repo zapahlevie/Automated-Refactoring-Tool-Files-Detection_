@@ -88,48 +88,48 @@ public class ApplicationTest {
         List<FileModel> fileModels = new ArrayList<>();
 
         fileModels.add(FileModel.builder()
-                .path("src/test/java/com/finalproject/automated/refactoring/tool/files/detection")
-                .filename("ApplicationTest.java")
-                .build());
-
-        fileModels.add(FileModel.builder()
-                .path("src/test/java/com/finalproject/automated/refactoring/tool/files/detection/service/implementation")
-                .filename("FilesDetectionThreadImplTest.java")
-                .build());
-
-        fileModels.add(FileModel.builder()
-                .path("src/test/java/com/finalproject/automated/refactoring/tool/files/detection/service/implementation")
-                .filename("FilesDetectionImplTest.java")
-                .build());
-
-        fileModels.add(FileModel.builder()
-                .path("src/test/java/com/finalproject/automated/refactoring/tool/configuration")
-                .filename("AsyncConfig.java")
-                .build());
-
-        fileModels.add(FileModel.builder()
-                .path("src/test/java/com/finalproject/automated/refactoring/tool")
-                .filename("Application.java")
-                .build());
-
-        fileModels.add(FileModel.builder()
-                .path("src/main/java/com/finalproject/automated/refactoring/tool/files/detection/service")
-                .filename("FilesDetectionThread.java")
-                .build());
-
-        fileModels.add(FileModel.builder()
-                .path("src/main/java/com/finalproject/automated/refactoring/tool/files/detection/service")
+                .path("src\\main\\java\\com\\finalproject\\automated\\refactoring\\tool\\files\\detection\\service")
                 .filename("FilesDetection.java")
                 .build());
 
         fileModels.add(FileModel.builder()
-                .path("src/main/java/com/finalproject/automated/refactoring/tool/files/detection/service/implementation")
+                .path("src\\main\\java\\com\\finalproject\\automated\\refactoring\\tool\\files\\detection\\service")
+                .filename("FilesDetectionThread.java")
+                .build());
+
+        fileModels.add(FileModel.builder()
+                .path("src\\main\\java\\com\\finalproject\\automated\\refactoring\\tool\\files\\detection\\service\\implementation")
+                .filename("FilesDetectionImpl.java")
+                .build());
+
+        fileModels.add(FileModel.builder()
+                .path("src\\main\\java\\com\\finalproject\\automated\\refactoring\\tool\\files\\detection\\service\\implementation")
                 .filename("FilesDetectionThreadImpl.java")
                 .build());
 
         fileModels.add(FileModel.builder()
-                .path("src/main/java/com/finalproject/automated/refactoring/tool/files/detection/service/implementation")
-                .filename("FilesDetectionImpl.java")
+                .path("src\\test\\java\\com\\finalproject\\automated\\refactoring\\tool")
+                .filename("Application.java")
+                .build());
+
+        fileModels.add(FileModel.builder()
+                .path("src\\test\\java\\com\\finalproject\\automated\\refactoring\\tool\\configuration")
+                .filename("AsyncConfig.java")
+                .build());
+
+        fileModels.add(FileModel.builder()
+                .path("src\\test\\java\\com\\finalproject\\automated\\refactoring\\tool\\files\\detection")
+                .filename("ApplicationTest.java")
+                .build());
+
+        fileModels.add(FileModel.builder()
+                .path("src\\test\\java\\com\\finalproject\\automated\\refactoring\\tool\\files\\detection\\service\\implementation")
+                .filename("FilesDetectionImplTest.java")
+                .build());
+
+        fileModels.add(FileModel.builder()
+                .path("src\\test\\java\\com\\finalproject\\automated\\refactoring\\tool\\files\\detection\\service\\implementation")
+                .filename("FilesDetectionThreadImplTest.java")
                 .build());
 
         return fileModels;
